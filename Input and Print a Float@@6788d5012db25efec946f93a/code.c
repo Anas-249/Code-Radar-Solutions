@@ -1,7 +1,8 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     float a;
-    scanf("%.2f",&a);
-    printf("%.2f",a);
+    scanf("%f", &a);    // Corrected format specifier
+    printf("%.2f", a);  // Prints with 2 decimal places
     return 0;
 }
