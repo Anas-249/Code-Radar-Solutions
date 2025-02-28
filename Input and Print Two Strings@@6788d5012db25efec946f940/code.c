@@ -7,6 +7,6 @@ int main(){
     strcpy(result,a);
     strcat(result," and ");
     strcat(result,b);
-    printf("You entered: %s\n and",result);
+    printf("You entered: %s\n",result);
     return 0;
 }
